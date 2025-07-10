@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3, #f1c40f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.clock-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    width: 90%;
+}
+.clock-container h1 {
+    margin-bottom:  10px;
+}
+.time {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.timezone-section {
+    margin-top: 20px;
+}
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-right: 10px; 
+}
